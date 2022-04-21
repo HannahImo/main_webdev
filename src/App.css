@@ -1,0 +1,313 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.all{
+  padding: auto;
+  box-sizing: border-box;
+  padding: auto;
+
+}
+.app-logo{
+font-weight: 700 bold;
+box-sizing: border-box;
+font-size: 20px;
+line-height: 6px;
+color: #01407A;
+position:left;
+font-style: normal;
+}
+.dlogo{
+  box-sizing: border-box;
+  margin: 30px;
+  position: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+.pics{
+box-sizing: border-box;
+position: right;
+justify-content: right;
+float: right;
+width:40rem;
+height: 30rem;
+margin:auto;
+
+}
+.app-header-button {
+  background-color: rgb(44, 130, 201);
+  border-radius: 30em;
+  border-width: 0;
+  box-shadow: rgba(44, 130, 201, 0.2) 0 0 1px 0,rgba(44, 130, 201,.1) 0 3px 4px 0;
+  color:  white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 1em;
+  height: 50px;
+  padding: 0 25px;
+  transition: all 200ms;
+  margin: auto;
+  }
+
+.appp-logo{
+font-family: Poppins;
+font-size: 20px;
+color: #4B97DD;
+position:left;
+font-style: italic;
+position: left;
+}
+.header-menu {
+display:flex;  
+padding: auto;
+padding: auto;
+box-sizing: border-box;
+}
+
+.header-menu-list-item{ 
+  padding: 30px;
+  flex-direction: row;
+  flex:10px;
+  color:#f0f1f3;
+  list-style: none;
+  font-weight: 500;
+  background: url("https://bit.ly/36iYvZW");
+}
+.app-header-text{
+font-weight: 500;
+color:#01407A;
+width:500px;
+font-size: 20px;
+font-style: normal;
+position: center;
+margin: 30px ;
+padding: 0px;
+
+}
+.login{
+box-sizing: border-box;
+position: right;
+}
+.signup{
+  padding: auto;
+  color: #f0f1f3;
+  box-sizing: border-box;
+  background-color: #4B97DD;
+
+}
+.signup-form-input{
+box-sizing: border-box;
+background: white;
+border: black 1px solid;
+margin: 10px 5px 10px;
+padding: 0%;
+float: center;
+width: 200px;
+height: 25px;
+border-radius: 0px;
+box-sizing: border-box;
+}
+.logform{
+  box-sizing: border-box ;
+  float:right;
+  margin:10px 20px 50px ;
+  height: 200px;
+}
+.login-form-input{
+  box-sizing: border-box;
+  background: white;
+  border: black 1px solid;
+  margin: 10px 5px 10px;
+  padding: 0%;
+  float: center;
+  width: 200px;
+  height: 25px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  border: rgba(230, 231, 222, 0.877) 2px solid;
+}
+.verify-form{
+  box-sizing: border-box ;
+  position: flex;
+  flex-direction: row;
+  padding: 50px;
+  margin: auto;
+  float:center;
+  padding: 30px 20px 10px ;
+  margin: 10px;
+  background-color: white; 
+}
+.Donor-Info{
+  background-color: #01407A;
+  box-sizing: border-box;
+  float:right;
+  height: 600px;
+  width: 40rem;
+  margin: 0px;
+  text-align: center;
+  color:#f0f1f3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Verifyy{
+  background-color: rgb(44, 130, 201);
+  border-radius: 30em;
+  border-width: 0;
+  box-shadow: rgba(44, 130, 201, 0.2) 0 0 1px 0,rgba(44, 130, 201,.1) 0 3px 4px 0;
+  color:  white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 1em;
+  height: 50px;
+  padding: 0 25px;
+  transition: all 200ms;
+  margin: auto;
+}
+.donor{
+  padding-left: 50px;
+}
+.donor1 > img {
+  height: 300px;
+  width: 300px;
+  margin: 10px; 
+  border-radius: 10px;
+  }
+  .donor2 > img {
+    height: 300px;
+    width: 300px;
+    margin: 10px; 
+    border-radius: 10px;
+    }
+.about{
+    padding-top: 1px;
+    padding-left:50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus{
+ padding-top: 100px; 
+padding-left: 20px;
+display: inline-flex;
+}
+.abtext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.aboutus > img{
+  height: 450px;
+  width: 700px;
+  border-radius: 50px;
+  }
+.about button{
+background-color:rgb(44, 130, 201);
+border-radius: 50px;
+border-width: 0;
+box-shadow: rgba(44, 130, 201) 0 0 1px 0, rgba(11, 127, 171, .1)  0 3px 4px 0;
+color:  oldlace;
+cursor: pointer;
+display: inline-block;
+font-family: Arial,sans-serif;
+font-size: 1em;
+height: 50px;
+padding: 0 25px;
+transition: all 200ms;
+}
+.abttext{
+padding-left: 25px;
+padding-top: 150px;
+display:block;
+}
+.sme > img{
+height:300px;
+width: 300px ;
+margin: 20px;
+border-radius: 50px;
+padding: 50px 30px 20px;
+ 
+}
+.sme{
+  padding-left: 50px;
+  height: 50px;
+}
+.enquiries{
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 10px 70px;
+  color:#282c34;
+  justify-content: center;
+}
+.rectangle{
+  background-color: #01407A;
+  align-items: center;
+  height:10px;
+  text-align: center;
+  color:#f0f1f3;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: rgba(230, 231, 222, 0.877) 3px solid;
+margin: 5px;
+padding: 10px 70px;
+}
+.Banner-btn{
+  padding: auto;
+  color: #f0f1f3;
+  box-sizing: border-box;
+  background-color: #4B97DD;
+}
+.Banner-signup{
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+box-sizing: border-box;
+margin: 5px;
+padding: 0px 70px;
+}
