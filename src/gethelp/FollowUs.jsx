@@ -1,10 +1,5 @@
-import { SiInstagram } from 'react-icons/si';
-import { IconContext } from 'react-icons';
-import { SiFacebook } from 'react-icons/si';
 function FollowUs(){
     return(
-        <IconContext.Provider value={{ className:"icons"}}> 
-       <>
         <div className='enquiries'>
         <table>
             
@@ -20,7 +15,7 @@ function FollowUs(){
                 <br></br>
                 <td> Lorem Ispodim sit amir</td>
                 <br></br>
-                <td> <SiInstagram /> <SiFacebook /> </td>
+                <td> <img src="https://bit.ly/3MialTB" alt="IG"/>  <img src="https://bit.ly/3v1keiu" alt="FB"/>  </td>
             </tr>
             
             
@@ -43,9 +38,6 @@ function FollowUs(){
         <button type='submit'> Translate </button>
         </div>
         </div>
-        </>
-        </IconContext.Provider>
-            
     )
 }
 export default FollowUs;
